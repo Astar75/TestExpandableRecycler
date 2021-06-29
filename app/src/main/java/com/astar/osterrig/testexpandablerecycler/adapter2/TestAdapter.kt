@@ -11,6 +11,11 @@ import androidx.recyclerview.widget.RecyclerView
 import com.astar.osterrig.testexpandablerecycler.R
 import java.util.*
 
+
+/***
+ * Source https://github.com/mozilla-mobile/guardian-vpn-android/blob/13acfd327be57c5fa2c536ea7f9b1ff8fd5301f5/app/src/main/java/org/mozilla/firefox/vpn/apptunneling/ui/AppGroupViewHolder.kt
+ */
+
 class TestAdapter : RecyclerView.Adapter<RecyclerView.ViewHolder>() {
 
     private var items: MutableList<ExpandableItem> = Collections.emptyList()
